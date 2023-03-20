@@ -17,11 +17,9 @@ class ProfileViewController: UIViewController {
     @IBAction private func registerButton() {
         
     }
-    
     @IBOutlet private weak var emailTextField: UITextField!
     @IBOutlet private weak var dataOfBirthTextField: UITextField!
     @IBOutlet private weak var addressTextField: UITextField!
-    
 }
 
 
