@@ -7,36 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEC545A829C5A85300C32167 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC545A729C5A85300C32167 /* ProductDetailsViewController.swift */; };
+		CEC545CA29C5FFD500C32167 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEC545C929C5FFD500C32167 /* GoogleService-Info.plist */; };
+		CEC545CC29C8333800C32167 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC545CB29C8333800C32167 /* Constants.swift */; };
+		CEC545D129C8413300C32167 /* Extencion+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC545D029C8413300C32167 /* Extencion+Image.swift */; };
+		CEC545DB29C851C900C32167 /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC545DA29C851C900C32167 /* MenuViewModel.swift */; };
 		CEC5680629C1918F00E01924 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5680529C1918F00E01924 /* AppDelegate.swift */; };
 		CEC5680829C1918F00E01924 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5680729C1918F00E01924 /* SceneDelegate.swift */; };
-		CEC5680A29C1918F00E01924 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5680929C1918F00E01924 /* ViewController.swift */; };
-		CEC5680D29C1918F00E01924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC5680B29C1918F00E01924 /* Main.storyboard */; };
 		CEC5680F29C1919100E01924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC5680E29C1919100E01924 /* Assets.xcassets */; };
 		CEC5681229C1919100E01924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC5681029C1919100E01924 /* LaunchScreen.storyboard */; };
+		CEC5682329C1927100E01924 /* MenuWorkFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC5682229C1927100E01924 /* MenuWorkFlow.storyboard */; };
+		CEC5682529C1928300E01924 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5682429C1928300E01924 /* MenuViewController.swift */; };
+		CEC5682729C1929A00E01924 /* ProfileWorkFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC5682629C1929A00E01924 /* ProfileWorkFlow.storyboard */; };
+		CEC5682929C192A700E01924 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5682829C192A700E01924 /* ProfileViewController.swift */; };
+		CEC5682B29C192B800E01924 /* ProductDetailsWorkFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC5682A29C192B800E01924 /* ProductDetailsWorkFlow.storyboard */; };
+		CEC5683429C1B84100E01924 /* MenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5683229C1B84100E01924 /* MenuCollectionViewCell.swift */; };
+		CEC5683529C1B84100E01924 /* MenuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC5683329C1B84100E01924 /* MenuCollectionViewCell.xib */; };
+		CEC5683829C1C25500E01924 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5683729C1C25500E01924 /* MenuModel.swift */; };
+		CEC5684229C1C93200E01924 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5684129C1C93200E01924 /* NetworkService.swift */; };
+		CEC5684429C1C94A00E01924 /* NetworkHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5684329C1C94A00E01924 /* NetworkHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CEC545A729C5A85300C32167 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
+		CEC545C929C5FFD500C32167 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEC545CB29C8333800C32167 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CEC545D029C8413300C32167 /* Extencion+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extencion+Image.swift"; sourceTree = "<group>"; };
+		CEC545DA29C851C900C32167 /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
 		CEC5680229C1918F00E01924 /* Month5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Month5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC5680529C1918F00E01924 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEC5680729C1918F00E01924 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEC5680929C1918F00E01924 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CEC5680C29C1918F00E01924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEC5680E29C1919100E01924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEC5681129C1919100E01924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEC5681329C1919100E01924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC5682229C1927100E01924 /* MenuWorkFlow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MenuWorkFlow.storyboard; sourceTree = "<group>"; };
+		CEC5682429C1928300E01924 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		CEC5682629C1929A00E01924 /* ProfileWorkFlow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileWorkFlow.storyboard; sourceTree = "<group>"; };
+		CEC5682829C192A700E01924 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CEC5682A29C192B800E01924 /* ProductDetailsWorkFlow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProductDetailsWorkFlow.storyboard; sourceTree = "<group>"; };
+		CEC5683229C1B84100E01924 /* MenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		CEC5683329C1B84100E01924 /* MenuCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCollectionViewCell.xib; sourceTree = "<group>"; };
+		CEC5683729C1C25500E01924 /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		CEC5684129C1C93200E01924 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		CEC5684329C1C94A00E01924 /* NetworkHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		CEC567FF29C1918F00E01924 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
+		CEC545CD29C835E500C32167 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				CEC5684129C1C93200E01924 /* NetworkService.swift */,
+				CEC5684329C1C94A00E01924 /* NetworkHelpers.swift */,
+				CEC545C929C5FFD500C32167 /* GoogleService-Info.plist */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		CEC545CE29C8360300C32167 /* AuthorizationService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AuthorizationService;
+			sourceTree = "<group>";
+		};
 		CEC567F929C1918F00E01924 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +89,123 @@
 		CEC5680429C1918F00E01924 /* Month5 */ = {
 			isa = PBXGroup;
 			children = (
+				CEC5681A29C191B100E01924 /* App */,
+				CEC5681B29C191C700E01924 /* Resourses */,
+				CEC5681C29C191EC00E01924 /* WorkFlows */,
+				CEC5683029C1940800E01924 /* Constants */,
+				CEC5682F29C1940000E01924 /* DTOs */,
+				CEC5682E29C193F300E01924 /* Service */,
+			);
+			path = Month5;
+			sourceTree = "<group>";
+		};
+		CEC5681A29C191B100E01924 /* App */ = {
+			isa = PBXGroup;
+			children = (
 				CEC5680529C1918F00E01924 /* AppDelegate.swift */,
 				CEC5680729C1918F00E01924 /* SceneDelegate.swift */,
-				CEC5680929C1918F00E01924 /* ViewController.swift */,
-				CEC5680B29C1918F00E01924 /* Main.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CEC5681B29C191C700E01924 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
 				CEC5680E29C1919100E01924 /* Assets.xcassets */,
 				CEC5681029C1919100E01924 /* LaunchScreen.storyboard */,
 				CEC5681329C1919100E01924 /* Info.plist */,
 			);
-			path = Month5;
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		CEC5681C29C191EC00E01924 /* WorkFlows */ = {
+			isa = PBXGroup;
+			children = (
+				CEC5681E29C1920400E01924 /* AutorizedWorkFlow */,
+				CEC5681D29C191F600E01924 /* UnautorizedWorkFlow */,
+			);
+			path = WorkFlows;
+			sourceTree = "<group>";
+		};
+		CEC5681D29C191F600E01924 /* UnautorizedWorkFlow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UnautorizedWorkFlow;
+			sourceTree = "<group>";
+		};
+		CEC5681E29C1920400E01924 /* AutorizedWorkFlow */ = {
+			isa = PBXGroup;
+			children = (
+				CEC5681F29C1922600E01924 /* ProfileWorkFlow */,
+				CEC5682029C1923700E01924 /* MenuWorkFlow */,
+				CEC5682129C1924500E01924 /* ProductDetailsWorkFlow */,
+			);
+			path = AutorizedWorkFlow;
+			sourceTree = "<group>";
+		};
+		CEC5681F29C1922600E01924 /* ProfileWorkFlow */ = {
+			isa = PBXGroup;
+			children = (
+				CEC5682629C1929A00E01924 /* ProfileWorkFlow.storyboard */,
+				CEC5682829C192A700E01924 /* ProfileViewController.swift */,
+			);
+			path = ProfileWorkFlow;
+			sourceTree = "<group>";
+		};
+		CEC5682029C1923700E01924 /* MenuWorkFlow */ = {
+			isa = PBXGroup;
+			children = (
+				CEC5682229C1927100E01924 /* MenuWorkFlow.storyboard */,
+				CEC5682429C1928300E01924 /* MenuViewController.swift */,
+				CEC545DA29C851C900C32167 /* MenuViewModel.swift */,
+				CEC5683129C1B7F400E01924 /* Components */,
+				CEC5683229C1B84100E01924 /* MenuCollectionViewCell.swift */,
+				CEC5683329C1B84100E01924 /* MenuCollectionViewCell.xib */,
+			);
+			path = MenuWorkFlow;
+			sourceTree = "<group>";
+		};
+		CEC5682129C1924500E01924 /* ProductDetailsWorkFlow */ = {
+			isa = PBXGroup;
+			children = (
+				CEC5682A29C192B800E01924 /* ProductDetailsWorkFlow.storyboard */,
+				CEC545A729C5A85300C32167 /* ProductDetailsViewController.swift */,
+			);
+			path = ProductDetailsWorkFlow;
+			sourceTree = "<group>";
+		};
+		CEC5682E29C193F300E01924 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CEC545CE29C8360300C32167 /* AuthorizationService */,
+				CEC545CD29C835E500C32167 /* NetworkService */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CEC5682F29C1940000E01924 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				CEC5683729C1C25500E01924 /* MenuModel.swift */,
+				CEC545D029C8413300C32167 /* Extencion+Image.swift */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		CEC5683029C1940800E01924 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CEC545CB29C8333800C32167 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		CEC5683129C1B7F400E01924 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -75,7 +216,6 @@
 			buildConfigurationList = CEC5681629C1919100E01924 /* Build configuration list for PBXNativeTarget "Month5" */;
 			buildPhases = (
 				CEC567FE29C1918F00E01924 /* Sources */,
-				CEC567FF29C1918F00E01924 /* Frameworks */,
 				CEC5680029C1918F00E01924 /* Resources */,
 			);
 			buildRules = (
@@ -125,9 +265,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC5682329C1927100E01924 /* MenuWorkFlow.storyboard in Resources */,
+				CEC5683529C1B84100E01924 /* MenuCollectionViewCell.xib in Resources */,
+				CEC5682729C1929A00E01924 /* ProfileWorkFlow.storyboard in Resources */,
 				CEC5681229C1919100E01924 /* LaunchScreen.storyboard in Resources */,
 				CEC5680F29C1919100E01924 /* Assets.xcassets in Resources */,
-				CEC5680D29C1918F00E01924 /* Main.storyboard in Resources */,
+				CEC5682B29C192B800E01924 /* ProductDetailsWorkFlow.storyboard in Resources */,
+				CEC545CA29C5FFD500C32167 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +282,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEC5680A29C1918F00E01924 /* ViewController.swift in Sources */,
 				CEC5680629C1918F00E01924 /* AppDelegate.swift in Sources */,
+				CEC5682529C1928300E01924 /* MenuViewController.swift in Sources */,
+				CEC5684229C1C93200E01924 /* NetworkService.swift in Sources */,
+				CEC545DB29C851C900C32167 /* MenuViewModel.swift in Sources */,
+				CEC5682929C192A700E01924 /* ProfileViewController.swift in Sources */,
+				CEC5683829C1C25500E01924 /* MenuModel.swift in Sources */,
+				CEC545CC29C8333800C32167 /* Constants.swift in Sources */,
+				CEC5684429C1C94A00E01924 /* NetworkHelpers.swift in Sources */,
+				CEC545A829C5A85300C32167 /* ProductDetailsViewController.swift in Sources */,
 				CEC5680829C1918F00E01924 /* SceneDelegate.swift in Sources */,
+				CEC545D129C8413300C32167 /* Extencion+Image.swift in Sources */,
+				CEC5683429C1B84100E01924 /* MenuCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CEC5680B29C1918F00E01924 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEC5680C29C1918F00E01924 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CEC5681029C1919100E01924 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,10 +434,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9U29FTW386;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Month5/Info.plist;
+				INFOPLIST_FILE = Month5/Resourses/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = ProfileWorkFlow;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,10 +462,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9U29FTW386;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Month5/Info.plist;
+				INFOPLIST_FILE = Month5/Resourses/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = ProfileWorkFlow;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
