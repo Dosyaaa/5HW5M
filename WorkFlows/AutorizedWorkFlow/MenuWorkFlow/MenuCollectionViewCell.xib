@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MenuCollectionViewCell" customModule="Month5" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MenuCollectionViewCell" customModule="Month5" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="211"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="211"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pencil" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="WKW-TR-OJ8">
+                        <rect key="frame" x="0.0" y="3" width="150" height="145"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="150" id="4Bd-nq-f1g"/>
+                            <constraint firstAttribute="height" constant="150" id="Gda-vI-dd9"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <integer key="value" value="75"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9P-AY-uch">
+                        <rect key="frame" x="33" y="186" width="84" height="25"/>
+                        <color key="backgroundColor" red="0.94328004119999997" green="0.53947656489999996" blue="0.46159404679999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="Rln-fr-yAv"/>
+                            <constraint firstAttribute="width" constant="84" id="ciM-C6-l9Q"/>
+                        </constraints>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain" title="By Now"/>
+                        <connections>
+                            <action selector="byNowButton:" destination="gTV-IL-0wX" eventType="touchUpInside" id="vlu-of-VFY"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M0f-n4-uY3">
+                        <rect key="frame" x="0.0" y="160" width="150" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="M0f-n4-uY3" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="5xM-af-69k"/>
+                <constraint firstItem="WKW-TR-OJ8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="WSe-9D-lbU"/>
+                <constraint firstAttribute="trailing" secondItem="WKW-TR-OJ8" secondAttribute="trailing" id="X04-lF-9TR"/>
+                <constraint firstItem="M0f-n4-uY3" firstAttribute="top" secondItem="WKW-TR-OJ8" secondAttribute="bottom" constant="10" id="ZtE-1D-jlS"/>
+                <constraint firstAttribute="trailing" secondItem="M0f-n4-uY3" secondAttribute="trailing" id="orJ-aw-1iS"/>
+                <constraint firstItem="m9P-AY-uch" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="33" id="qOb-bs-L5J"/>
+                <constraint firstItem="WKW-TR-OJ8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="sbe-Ta-fRO"/>
+                <constraint firstItem="m9P-AY-uch" firstAttribute="top" secondItem="M0f-n4-uY3" secondAttribute="bottom" constant="5" id="xb2-mZ-h9U"/>
+            </constraints>
+            <size key="customSize" width="150" height="211"/>
+            <connections>
+                <outlet property="imageMenu" destination="WKW-TR-OJ8" id="IKW-iC-LwI"/>
+                <outlet property="nameLabel" destination="M0f-n4-uY3" id="lNN-1n-7FN"/>
+            </connections>
+            <point key="canvasLocation" x="346.56488549618319" y="74.295774647887328"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="pencil" catalog="system" width="128" height="113"/>
+    </resources>
+</document>
