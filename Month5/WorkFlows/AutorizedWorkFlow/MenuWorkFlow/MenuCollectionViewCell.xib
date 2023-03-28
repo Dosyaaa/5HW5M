@@ -19,8 +19,8 @@
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pencil" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="WKW-TR-OJ8">
                         <rect key="frame" x="0.0" y="3" width="150" height="145"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="150" id="DH9-Cb-sAS"/>
-                            <constraint firstAttribute="width" constant="150" id="mz4-bf-tt1"/>
+                            <constraint firstAttribute="width" constant="150" id="4Bd-nq-f1g"/>
+                            <constraint firstAttribute="height" constant="150" id="Gda-vI-dd9"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -29,7 +29,7 @@
                         </userDefinedRuntimeAttributes>
                     </imageView>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9P-AY-uch">
-                        <rect key="frame" x="33" y="183" width="84" height="25"/>
+                        <rect key="frame" x="33" y="186" width="84" height="25"/>
                         <color key="backgroundColor" red="0.94328004119999997" green="0.53947656489999996" blue="0.46159404679999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="25" id="Rln-fr-yAv"/>
@@ -43,7 +43,7 @@
                         </connections>
                     </button>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M0f-n4-uY3">
-                        <rect key="frame" x="0.0" y="157" width="150" height="21"/>
+                        <rect key="frame" x="0.0" y="160" width="150" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -52,13 +52,13 @@
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
-                <constraint firstItem="WKW-TR-OJ8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="3HD-9c-OmW"/>
                 <constraint firstItem="M0f-n4-uY3" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="5xM-af-69k"/>
-                <constraint firstAttribute="trailing" secondItem="WKW-TR-OJ8" secondAttribute="trailing" id="8dD-jN-ZSt"/>
-                <constraint firstItem="WKW-TR-OJ8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="DSm-Ko-dlK"/>
-                <constraint firstItem="M0f-n4-uY3" firstAttribute="top" secondItem="WKW-TR-OJ8" secondAttribute="bottom" constant="7" id="Pwu-Mu-yfj"/>
+                <constraint firstItem="WKW-TR-OJ8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="WSe-9D-lbU"/>
+                <constraint firstAttribute="trailing" secondItem="WKW-TR-OJ8" secondAttribute="trailing" id="X04-lF-9TR"/>
+                <constraint firstItem="M0f-n4-uY3" firstAttribute="top" secondItem="WKW-TR-OJ8" secondAttribute="bottom" constant="10" id="ZtE-1D-jlS"/>
                 <constraint firstAttribute="trailing" secondItem="M0f-n4-uY3" secondAttribute="trailing" id="orJ-aw-1iS"/>
                 <constraint firstItem="m9P-AY-uch" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="33" id="qOb-bs-L5J"/>
+                <constraint firstItem="WKW-TR-OJ8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="sbe-Ta-fRO"/>
                 <constraint firstItem="m9P-AY-uch" firstAttribute="top" secondItem="M0f-n4-uY3" secondAttribute="bottom" constant="5" id="xb2-mZ-h9U"/>
             </constraints>
             <size key="customSize" width="150" height="211"/>

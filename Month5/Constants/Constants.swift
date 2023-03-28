@@ -8,7 +8,7 @@
 import Foundation
 
 enum Constants {
-    static let baseURL = URL(string: "www.thecocktaildb.com/api/json/v1/1/search.php?f=c")!
+    static let baseURL = URL(string: "www.thecocktaildb.com/api/json/v1/1/search.php")!
 }
 
 enum HTTPRequest {

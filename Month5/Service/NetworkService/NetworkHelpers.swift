@@ -43,4 +43,16 @@ final class NetworkLayer {
         let (data, _) = try await URLSession.shared.data(for: URLRequest(url: url))
         return try NetworkHelpers.decode(with: data)
     }
+    
+    func searchProduct(by word: String) async throws -> Menus {
+        let url = Constants.baseURL.appendingPathComponent("search")
+        var urlComponents = URLComponents(url: url, resolvingAgainstBaseURL: true)
+        urlComponents?.queryItems = [.init(name: "q", value: word)]
+        guard let url = urlComponents?.url else {
+            return try Menus(from: [] as! Decoder)
+        }
+        let (data, _) = try await URLSession.shared.data(for: URLRequest(url: url))
+        return try! NetworkHelpers.decode(with: data)
+    }
 }
+
