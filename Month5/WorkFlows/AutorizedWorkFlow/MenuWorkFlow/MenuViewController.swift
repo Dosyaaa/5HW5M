@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseFirestore
 
 class MenuViewController: UIViewController, UICollectionViewDelegate {
     
@@ -68,8 +69,8 @@ class MenuViewController: UIViewController, UICollectionViewDelegate {
             do {
                 let model = try await NetworkLayer.shared.searchProduct(by: word)
                 isLoading = false
-                NetworkLayer.shared.cocktails = model
                 DispatchQueue.main.async {
+                    self.viewModel.drinks = model.drinks ?? []
                     self.menuCollectionView.reloadData()
                 }
             } catch {
@@ -119,9 +120,9 @@ extension MenuViewController: UICollectionViewDelegateFlowLayout {
         _ collectionView: UICollectionView,
         didSelectItemAt indexPath: IndexPath
     ) {
-        guard let cell = collectionView.cellForItem(
+        guard collectionView.cellForItem(
             at: indexPath
-        ) as? MenuCollectionViewCell else { return }
+        ) is MenuCollectionViewCell else { return }
         let item = viewModel.drinks![indexPath.row]
         openDetailedCocktails(item: item)
     }

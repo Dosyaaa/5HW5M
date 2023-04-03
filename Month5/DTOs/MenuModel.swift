@@ -15,4 +15,3 @@ struct Menu: Codable {
 struct Menus: Codable {
     var drinks: [Menu]?
 }
-

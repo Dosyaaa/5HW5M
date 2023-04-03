@@ -45,14 +45,17 @@ final class NetworkLayer {
     }
     
     func searchProduct(by word: String) async throws -> Menus {
-        let url = Constants.baseURL.appendingPathComponent("search")
-        var urlComponents = URLComponents(url: url, resolvingAgainstBaseURL: true)
-        urlComponents?.queryItems = [.init(name: "q", value: word)]
-        guard let url = urlComponents?.url else {
+        var urlComponents  = URLComponents()
+        urlComponents.scheme = "https"
+        urlComponents.host = "www.thecocktaildb.com"
+        urlComponents.path = "/api/json/v1/1/search.php"
+        urlComponents.queryItems = [.init(name: "s", value: word)]
+        
+        guard let url = urlComponents.url else {
             return try Menus(from: [] as! Decoder)
         }
         let (data, _) = try await URLSession.shared.data(for: URLRequest(url: url))
-        return try! NetworkHelpers.decode(with: data)
+        return NetworkHelpers.decode(with: data)
     }
 }
 

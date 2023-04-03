@@ -14,3 +14,19 @@ enum Constants {
 enum HTTPRequest {
     case POST,PUT,DELETE
 }
+
+enum CounterType {
+    case plus, minus
+}
+
+protocol CounterCellDelegate: AnyObject {
+    func increaseTap()
+    func decreaseTap()
+}
+
+enum SplashConstants {
+    enum Keychain {
+        static let service = "PhoneAuth"
+        static let account = "phoneSign"
+    }
+}
